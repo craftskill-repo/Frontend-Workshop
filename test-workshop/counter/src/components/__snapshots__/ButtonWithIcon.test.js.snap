@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonWithIcon component Render ButtonWithIcon component with mount 1`] = `
+<ButtonWithIcon
+  icon="coffee"
+>
+  <button>
+    <Icon
+      icon="coffee"
+    >
+      <i
+        className="icon icon-coffee"
+      />
+    </Icon>
+    Hey, Jest!
+  </button>
+</ButtonWithIcon>
+`;
+
+exports[`ButtonWithIcon component Render ButtonWithIcon component with shollow 1`] = `
+<button>
+  <Icon
+    icon="coffee"
+  />
+  Hey, Jest!
+</button>
+`;
+
+exports[`ButtonWithIcon component Render ButtonWithIcon component with static render 1`] = `
+<button>
+  <i
+    class="icon icon-coffee"
+  >
+    
+  </i>
+  Hey, Jest!
+</button>
+`;

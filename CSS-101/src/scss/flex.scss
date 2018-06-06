@@ -1,0 +1,108 @@
+///////////////3.1////////////////////////////////
+//box-9、box-10 要求样式
+//1. 运用生平所学，使 box-9 和 box-10 等高
+//2. content 过多时，box-9、box-10 能自动撑高
+///////////////////////////////////////////////////
+.box-8 {
+  //box-8样式
+  width: 300px;
+  margin: 16px auto;
+  padding: 25px 50px;
+
+  border: 1px solid black;
+}
+
+.box-9 {
+  width: 100px;
+  border: 1px solid red;
+  //box-9样式
+  display: inline-block;
+}
+
+.box-10 {
+  width: 100px;
+  border: 1px solid blue;
+  //box-10 样式
+  display: inline-block;
+}
+
+///////////////3.2////////////////////////////////
+//box-11、box-12 要求样式
+//1. box-12 在 box-11 中水平、垂直 居中
+///////////////////////////////////////////////////
+.box-11,
+.box-12 {
+  border: 1px solid black;
+}
+
+.box-11 {
+  margin: 16px auto;
+  width: 200px;
+  height: 200px;
+  //box-11 样式
+}
+
+.box-12 {
+  width: 100px;
+  height: 100px;
+}
+
+///////////////3.3////////////////////////////////
+//box-13 要求样式
+//1. 依次对 box-13 应用 flex-direction 的各属性，并查看
+//区别
+///////////////////////////////////////////////////
+.box-13 {
+  margin: 16px auto;
+  width: 300px;
+  height: 300px;
+
+  border: 1px solid black;
+  //box-13 样式
+}
+
+///////////////3.4////////////////////////////////
+//box-14 要求样式
+//1. 依次对 box-14 应用 justify-content 和 align-items
+//的各个属性，并查看区别
+///////////////////////////////////////////////////
+.box-14 {
+  margin: 16px auto;
+  width: 300px;
+  height: 300px;
+
+  border: 1px solid black;
+  //box-14 样式
+}
+
+///////////////3.5////////////////////////////////
+//box-15 要求样式
+//1. 运用 flex-wrap 和 align-content 将 4个 box-12
+//分别放置在 box-14的四个角
+///////////////////////////////////////////////////
+.box-15 {
+  margin: 16px auto;
+  width: 420px;
+  height: 420px;
+
+  border: 1px solid black;
+  //box-15 样式
+}
+
+///////////////3.6////////////////////////////////
+//box-16、box-17 要求样式
+//1. 通过 flex-grow 使 box-17 占据 box-16 元素的其余宽度
+///////////////////////////////////////////////////
+.box-16 {
+  margin: 16px auto;
+  width: 300px;
+  height: 100px;
+
+  border: 1px solid black;
+  //box-16 样式
+}
+
+.box-17 {
+  border: 1px solid black;
+  //box-17 样式
+}
