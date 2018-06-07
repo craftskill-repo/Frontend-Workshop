@@ -1,7 +1,7 @@
 # Frontend Workshop
 
 ## Frontend 101
-Refer: EF-101
+Refer: FE-101
 
 > - Setup IDE
 > - Webpack
