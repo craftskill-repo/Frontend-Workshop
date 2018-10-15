@@ -2,7 +2,7 @@
 ** css selectors
 *** 什么是css selectors
 **** 官方定义： CSS selectors define the elements to which a set of CSS rules apply.
-**** 通俗讲法 ： 选出你想要修改的元素，进行css的修改. 
+**** 通俗讲法 ： 选出你想要修改的元素，进行css的修改.
 *** selectors type(css specification level3)
 **** type selector https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors
 **** id selector https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors
@@ -17,7 +17,7 @@
      - b=ID选择器数量
      - c=类/伪类/属性选择器数量
      - d=类型选择器和伪元素选择器数量
-**** 
+****
     | 选择器     | 特殊性  | 以10为基数的特殊性 |
     |------------+---------+--------------------|
     | Style=""   | 1,0,0,0 |               1000 |
@@ -37,8 +37,7 @@
 ***** block footersummary
 ***** Element footersummary__primary-button
 ***** modifier footersummary__primary-button--ghost
-**** Example FooterSummary [[http://dotrez-dev.uat.jetstar.com/docs/uitoolkit/storybook/?knob-selectedItem=0&selectedKind=ui%2FFooterSummary&selectedStory=page%20type&full=0&down=1&left=1&panelRight=1&downPanel=storybooks%2Fstorybook-addon-knobs][FooterSmuuary]]
 
 ** 伪元素 伪类
 *** 伪元素 ::before ::after https://codepen.io/hateonion/pen/qoZyyb
-*** 伪类 :active :hover 
+*** 伪类 :active :hover
