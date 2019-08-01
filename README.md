@@ -1,5 +1,4 @@
 # Frontend Workshop
-
 ## Frontend 101
 Refer: FE-101
 
